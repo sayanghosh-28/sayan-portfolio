@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Untitled(3).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!---<li><a href="#services">Services</a></li>--->
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="bi bi-x-circle" onclick="closedmenu()"></i>
+            </ul>
+            <i class="bi bi-list" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p style="color:rgb(35, 179, 241);">Python Developer and <br>Data analyst</p>
+            <h1>Hi, I'm <span>Sayan</span><br>Ghosh From India</h1>
+        </div>
+    </div>
+    </div>
+<!------------------------about----------------------------------------------------------------------------------> 
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG-20230409-WA0008-fotor-bg-remover-20231008203036.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>My name is Sayan Ghosh, I am currenly a software
+                    Developer, looking forward to explore the tech<br> 
+                    world,and I enjoy meeting new 
+                    people and interacting with them. I love to help<br> 
+                    people and work with them to have an uplifting
+                    experience. I am dedicated, hardworking and very <br>
+                    a team man.I am technically inclined and I am a 
+                    footballer. Coding is my hobby and football is my <br>
+                    passion. In lesure time i study different books and
+                    watch games and movies.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>AI ML</span><br>specialist/Deep learning</li>
+                        <li><span> Data Analysis</span><br>MYSQL/Power BI</li>
+                        <li><span>Python</span><br>Python Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>10/2023</span><br>Python Development Internship</li>
+                        <li><span> 02.02/24-03/02/24</span><br>Participant At Diversion 2k24 (Hackathon)</li>
+                        <li><span>22/06/24-21/07/24</span><br>Machine Learning Internship</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2010-2019</span><br>Secondary education from Kendriya vidyalaya Santragachi</li>
+                        <li><span> 2019-2021</span><br>Senior Secondary education from Kendriya vidyalaya Santragachi</li>
+                        <li><span>2021-present</span><br>BTECH from College Of Engineering And Management Kolaghat</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!------------------------services---------------------------
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <span class="material-symbols-outlined">
+                    frame_source
+                    </span>
+                <h2>AI and ML</h2>
+                <p>Machine learning is a subset of AI which allows a machine to 
+                automatically learn from past data without programming explicitly.<br>
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Artificial_Intelligence_Markup_Language#:~:text=Artificial%20Intelligence%20Markup%20Language%20(AIML,Artificial%20Intelligence%20Markup%20Language">Learn more</a>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    laptop_chromebook
+                    </span>
+                <h2>DSA</h2>
+                <p>Data structures are the implementations of abstract data types in a 
+                concrete and physical setting. They do this by using algorithms.<br> 
+                </p>
+                <a href="https://simple.wikipedia.org/wiki/Data_structure#:~:text=Data%20structures%20are%20the%20implementations,values%20or%20bits%20of%20information.">Learn more</a>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    code
+                    </span>
+                <h2>Python Development</h2>
+                <p>What is Python in development?
+                Python is a computer programming language often used to build websites
+                and software, automate tasks, and conduct data analysis.<br></p>
+                <a href="https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python#:~:text=Python%20is%20a%20computer%20programming,specialized%20for%20any%20specific%20problems.">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+--->
+<!----------------------------------------portfolio--------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/images (5).jpeg">
+                <div class="layer">
+                    <h3> Breast-cancer-prediction</h3>
+                    <p>This web page helps to predict the possibility of breast cancer</p>
+                    <a href="https://github.com/sayanghosh-28/breast-cancer-prediction.git"><span class="material-symbols-outlined">
+                        route
+                        </span></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/2023-10-10_2.png">
+                <div class="layer">
+                    <h3>Image Resizer</h3>
+                    <p>This Website helps you to resize your image according to your desired size</p>
+                    <a href="https://github.com/sayanghosh-28/image-resizer.git"><span class="material-symbols-outlined">
+                        route
+                        </span></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a.png">
+                <div class="layer">
+                    <h3>Football Score Predictor</h3>
+                    <p>This Web App predicts the Score of a football Match</p>
+                    <a href="https://github.com/sayanghosh-28/Football-Score-Predictor.git"><span class="material-symbols-outlined">route</span></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------Achivements------------------------------------------------------------>
+<div id="Achievements">
+    <div class="container">
+        <h1 class="sub-title">My Achievements</h1>
+        <div class="achv-list">
+            <div class="achv">
+                <img src="images/coursera.png"><br><br>
+                <div class="layers">
+                    <h2>Certificate</h2><br>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/3R7TWWHFFP6Z" class="btn1"> Google IT automation using Python</a>
+                </div>
+            </div>
+            <div class="achv">
+                <img src="images/microsoft.png"><br><br>
+                <div class="layers">
+                    <h2>Microsoft learn profile</h2><br>
+                    <a href="https://learn.microsoft.com/en-gb/users/SayanGhosh-0606/" class="btn1">View Web site</a>
+
+                </div>
+            </div>
+            <div class="achv">
+                <img src="images/pod.png"><br><br>
+                <div class="layers">
+                    <h2>POTD Streak</h2><br>
+                    <a href="https://auth.geeksforgeeks.org/user/babanghogj7r/" class="btn1">Geeks For Geeks</a>
+                    <a href="https://leetcode.com/sayanghosh2801/" class="btn1">Leetcode</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--------------------contact-------------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1><br>
+            <p><i class="bi bi-envelope-fill"></i> sayanghosh2801@gmail.com</p>
+            <p><i class="bi bi-telephone-plus-fill"></i>7063600000</p>
+            <div class="socialicons">
+                <a href="https://github.com/sayanghosh-28/"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/sayan-ghosh-42979826a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1UDS7YlKejNlrdxR5Z4Camud5j6Rote3K/view?usp=drive_link" class="btn btn2">Dowload CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="email@gmail.com" required>
+                <textarea name="message" name="Your message" placeholder="message"></textarea>
+                <button type="Submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sayan. Made with Love</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closedmenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+</script>
+
+
+</body>
+</html>
